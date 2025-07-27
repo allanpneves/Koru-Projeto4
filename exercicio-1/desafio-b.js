@@ -1,10 +1,10 @@
 const codeLearnStack = [ "JS", "CSS", "HTML", "Git", "GitHub" ];
 const pens = [ "Red", "Orange", "Cian", "Pink", "Green" ];
-const sectionsNotebook = [ 1, 2, 3, 4, 5 ];
+const notebookSections = [ "1", "2", "3", "4", "5" ];
 
-function colorCodeGen( codeLearnStack, pens,sectionsNotebook)
+function colorCodeGen( codeLearnStack, pens,notebookSections)
 {
-    const colorCode = [ ...codeLearnStack, ...pens, sectionsNotebook ]
+    const colorCode = [ ...codeLearnStack, ...pens, ...notebookSections ];
     console.log( colorCode );
 }
-colorCodeGen( codeLearnStack, pens, sectionsNotebook );
+colorCodeGen( codeLearnStack, pens, notebookSections );
