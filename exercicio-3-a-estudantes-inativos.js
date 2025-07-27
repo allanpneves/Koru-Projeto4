@@ -40,6 +40,7 @@ const highPerformingActiveStudents = students.filter((student) => {
 
 // Resolução do Desafio A do exercício 3  -  Use filter para encontrar estudantes inativos
 
+
 const inactiveStudents = students.filter(student => !student.active);
 
 console.log("Estudantes inativos:");
