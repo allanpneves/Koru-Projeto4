@@ -20,6 +20,7 @@ const olderStudents = students.filter((student) => student.age >= 20);
 const studentWithHighGrade = students.find((student) => {
   return student.grades.some((grade) => grade > 90);
 });
+
 // console.log(
 //   "\\nPrimeiro estudante com nota acima de 90:",
 //   studentWithHighGrade.name
